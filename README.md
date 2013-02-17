@@ -2,7 +2,7 @@ Me [![Build Status](https://travis-ci.org/Adron/Me.png)](https://travis-ci.org/A
 ===
 Description
 ---
-[JavaScript](http://adronhall.smugmug.com/Software/Misc-Images/Bad-Resume/i-s2d7HmT/0/S/javascript-S.png)This project is a portfolio site for myself, built using Theme Forest Themes and custom javaScript Node.js slinging by yourse truly (i.e. me, Adron Hall).
+![JavaScript](http://adronhall.smugmug.com/Software/Misc-Images/Bad-Resume/i-s2d7HmT/0/S/javascript-S.png)This project is a portfolio site for myself, built using Theme Forest Themes and custom javaScript Node.js slinging by yourse truly (i.e. me, Adron Hall).
 
 Kanban
 ---
