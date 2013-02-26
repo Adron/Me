@@ -1,5 +1,44 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.styleswitcher
+    div.arrow-box
+      a.switch-button.open
+        i.icon-caret-right
+      h3 Color scheme
+      ul.color-scheme
+        li
+          a.orange-theme(rel='css/theme-orange.css', href='#')
+        li
+          a.blue-theme(rel='css/theme-blue.css', href='#')
+        li
+          a.cyan-theme(rel='css/theme-cyan.css', href='#')
+        li
+          a.green-theme(rel='css/theme-green.css', href='#')
+        li
+          a.pink-theme(rel='css/theme-pink.css', href='#')
+      |<!--
+      p Background
+      ul.background-selector
+        li
+          a(href='#')
+            img(alt='', src='images/pattern/pattern0.png', data-nr='0')
+        li
+          img(alt='', src'images/pattern/pattern1.png', data-nr='1')
+        li
+          img(alt='', src'images/pattern/pattern2.png', data-nr='2')
+        li
+          img(alt='', src'images/pattern/pattern3.png', data-nr='3')
+        li.nomargin
+          img(alt='', src'images/pattern/pattern4.png', data-nr='4')
+        li.nomargin
+          img(alt='', src'images/pattern/pattern5.png', data-nr='5')
+        li
+          img(alt='', src'images/pattern/pattern6.png', data-nr='6')
+        li
+          img(alt='', src'images/pattern/pattern7.png', data-nr='7')
+        li
+          img(alt='', src'images/pattern/pattern8.png', data-nr='8')
+        li
+          img(alt='', src'images/pattern/pattern9.png', data-nr='9')
+      |-->
