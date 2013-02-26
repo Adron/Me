@@ -1,9 +1,13 @@
 doctype 5
-html
+html(lang='en')
   head
     title= title
     meta(name='description', content='Adron Hall's Vcard and related links to everything!')
     meta(name='author', content='Adron B Hall')
+    // The IE fixes & inline js.
+    |<!--[if lt IE 9]>
+    |   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    |<![endif]-->
     meta(name='viewport', content='width=width=device-width, initial-scale=1, maximum-scale=1')
     meta(http-equiv='Content-type', content='text/html; charset=utf-8')
     link(rel='stylesheet', href='css/base.css')
@@ -31,10 +35,6 @@ html
     script(type='text/javascript', src='js/jquery.quicksand.js')
     script(type='text/javascript', src='js/jquery.easing.1.3.js')
     script(type='text/javascript', src='js/custom.js')
-    // The IE fixes & inline js.
-    |<!--[if lt IE 9]>
-    |	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    |<![endif]-->
     |<script type="application/x-javascript">
     |    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     |    function hideURLbar(){
