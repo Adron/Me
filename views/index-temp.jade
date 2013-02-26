@@ -1,0 +1,173 @@
+!!! 5
+html(lang='en')
+head
+
+  body
+    //
+       Style Switcher Start 
+    .styleswitcher
+      .arrow-box
+        a.switch-button.open
+          i.icon-caret-right
+      h3 Color scheme 
+      ul.color-scheme
+        li
+          a.orange-theme(rel='css/theme-orange.css', href='#')
+        li
+          a.blue-theme(rel='css/theme-blue.css', href='#')
+        li
+          a.cyan-theme(rel='css/theme-cyan.css', href='#')
+        li
+          a.green-theme(rel='css/theme-green.css', href='#')
+        li
+          a.pink-theme(rel='css/theme-pink.css', href='#')
+      |<!--
+      p Background
+      ul.background-selector
+        li
+          a(href='#')
+            img(alt='', src='images/pattern/pattern0.png', data-nr='0')
+        li
+          img(alt='', src'images/pattern/pattern1.png', data-nr='1')
+        li
+          img(alt='', src'images/pattern/pattern2.png', data-nr='2')
+        li
+          img(alt='', src'images/pattern/pattern3.png', data-nr='3')
+        li.nomargin
+          img(alt='', src'images/pattern/pattern4.png', data-nr='4')
+        li.nomargin
+          img(alt='', src'images/pattern/pattern5.png', data-nr='5')
+        li
+          img(alt='', src'images/pattern/pattern6.png', data-nr='6')
+        li
+          img(alt='', src'images/pattern/pattern7.png', data-nr='7')
+        li
+          img(alt='', src'images/pattern/pattern8.png', data-nr='8')
+        li
+          img(alt='', src'images/pattern/pattern9.png', data-nr='9')
+      |-->
+    #page
+      #content
+        .container.outer-wrap
+          .dark-bg
+            .fake-bg
+            .color-bg
+              .columns.four
+                #logo
+                  a(href='#')
+                    img(src='images/my_photo.png', alt='')
+                  .shadow-wrap
+                .content-pad
+                  h3.org-head
+                    span Social Consistency Ring
+                  .social-icons
+                    ul
+                      li.
+                        a(href='http://twitter.com/adron')
+                          i.icon-twitter
+                      li.
+                        a(href='http://www.facebook.com/adron')
+                          i.icon-facebook
+                      li.
+                        a(href='https://plus.google.com/101393617397674633535')
+                          i.icon-google-plus
+                      li.
+                        a(href='http://www.linkedin.com/in/adron')
+                          i.icon-linkedin
+                      li.
+                        a(href='https://github.com/adron')
+                          i.icon-github
+                      li.
+                        a(href='http://feeds.feedburner.com/LooselyCoupledHumanCodeFactory')
+                          i.icon-rss
+                  h3.org-head
+                    span Twitter Pub/Sub
+                  .tweet.query
+              .columns.twelve
+                #tab-body
+                  #tab-container.tab-container
+                    ul.etabs
+                      li.tab
+                        a.home(href='#home')
+                          span.icon-wrap
+                            i.icon-home
+                          | Home
+                      li.tab
+                        a.(href='#blog')
+                          span.icon-wrap
+                            i.icon-rss
+                          | Blog
+                      li.tab
+                        a.(href='#github')
+                          span.icon-wrap
+                            i.icon-github
+                          | Github
+                    .panel-container
+                      #home.page
+                        .content-wrap
+                          .columns.six
+                            .content-pad
+                              .intro-head
+                                p.font48 Hello
+                                p.font24
+                                  | How's it going? I'm
+                                  span Adron
+                                p
+                                  | I'm a
+                                  span coder
+                                  | ,
+                                  span cyclist
+                                  | ,
+                                  span technologist
+                                  | &
+                                  span shredder
+                                  | o' the
+                                  span heavy metal, jazz & blues musical twists
+                                  | o' my compositions
+                          .columns.five
+                            .content-pad
+                              h3.org-head
+                                span Communications
+                              p
+                                | Please contact in order of tweet, email and then call unless we've otherwise arranged a specific communication medium. Thanks!
+                              .home-contact
+                                p
+                                  span
+                                    i.icon-phone-sign
+                                  | (503) 890-8036
+                                p
+                                  span
+                                    i.icon-envelope-alt
+                                  a(href='mailto://adronhall@gmail.com') adronhall@gmail.com
+                                p
+                                  span
+                                    i.icon-home
+                                  a(href='https://maps.google.com/maps?q=818+SW+3rd+Ave,+Portland,+OR&hl=en&ll=45.517309,-122.675829&spn=0.007623,0.019419&sll=45.522398,-122.684126&sspn=0.007622,0.019419&oq=818+SW+&hnear=818+SW+3rd+Ave,+Portland,+Multnomah,+Oregon+97204&t=m&z=16')  818 SW 3rd Ave, Portland, OR 97204
+                                p
+                                  i.icon-globe
+                                  a(href='http://compositecode.com') Composite Code
+                                p
+                                  i.icon-download-alt
+                                  a(href='adron_hall.vcf') My Vcard
+                          .clearfix
+                      #blog.page
+                        p
+                          | Kristen Rose Mozian IS FREAKIN' AWESOME!!!
+                          3
+                      #github.page
+                        p Github Feed Results GO HERE! #WIN
+              .clearfix
+              footer
+                script
+                  var d = new Date();
+                  var n = d.getFullYear();
+                  // Add n to the copyright below.
+                .columns.eight
+                  .content-pad Copyright © 2013 Adron B Hall
+                .columns.eight
+                  .powered-by.content-pad
+                    | Theme by the most excellent
+                    a(target='_blank', href='http://themeforest.net/user/mannatstudio') MannatStudio
+                .clearfix
+      p#back-top(style='display: block;')
+        a(href='#top')  
