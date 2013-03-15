@@ -1,11 +1,7 @@
 exports.index = function(req, res){
-  res.redirect('/index.html');
+    res.render('index', { title: 'Vcard @adron' });
 };
 
 exports.meetups = function(req, res){
 	res.render('meetups', { title: 'Meetups' });
-};
-
-exports.home2 = function(req, res){
-	res.render('home2', { title: 'Home Scratch' });
 };
