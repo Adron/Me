@@ -1,6 +1,93 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  
+ #page
+    #content
+        .container.outer-wrap
+          .dark-bg
+            .fake-bg
+            .color-bg
+              .columns.four
+                #logo
+                  a(href='#')
+                    img(src='images/my_photo.png', alt='')
+                  .shadow-wrap
+                .content-pad
+                  h3.org-head
+                    span Social Consistency Ring
+                  .social-icons
+                    ul
+                      li
+                        a(href='http://twitter.com/adron')
+                          i.icon-twitter
+                      li
+                        a(href='http://www.facebook.com/adron')
+                          i.icon-facebook
+                      li
+                        a(href='https://plus.google.com/101393617397674633535')
+                          i.icon-google-plus
+                      li
+                        a(href='http://www.linkedin.com/in/adron')
+                          i.icon-linkedin
+                      li
+                        a(href='https://github.com/adron')
+                          i.icon-github
+                      li
+                        a(href='http://feeds.feedburner.com/LooselyCoupledHumanCodeFactory')
+                          i.icon-rss
+              .columns.twelve
+                #tab-body
+                  #tab-container.tab-container
+                    ul.etabs
+                      li.tab
+                        a.home(href='#home')
+                          span.icon-wrap
+                            i.icon-home
+                          | Home
+                    .panel-container
+                      #home.page
+                        .content-wrap
+                          .columns.six
+                            .content-pad
+                              .intro-head
+                                p.font48 Hello
+                                p.font24
+                                  | How's it going? I'm 
+                                  span Adron.
+                          .columns.five
+                            .content-pad
+                                h3.org-head
+                                  span Communications
+                                p
+                                  | Please contact in order of tweet, email and then call unless we've otherwise arranged a specific communication medium. Thanks!
+                                .home-contact
+                                  p
+                                    span
+                                      i.icon-phone-sign
+                                    | (503) 890-8036
+                                  p
+                                    span
+                                      i.icon-envelope-alt
+                                    a(href='mailto://adronhall@gmail.com') adronhall@gmail.com
+                                  p
+                                    span
+                                      i.icon-home
+                                    a(href='https://maps.google.com/maps?q=818+SW+3rd+Ave,+Portland,+OR&hl=en&ll=45.517309,-122.675829&spn=0.007623,0.019419&sll=45.522398,-122.684126&sspn=0.007622,0.019419&oq=818+SW+&hnear=818+SW+3rd+Ave,+Portland,+Multnomah,+Oregon+97204&t=m&z=16')  818 SW 3rd Ave, Portland, OR 97204
+                                  p
+                                    i.icon-globe
+                                    a(href='http://compositecode.com') Composite Code
+                                  p
+                                    i.icon-download-alt
+                                    a(href='adron_hall.vcf') My Vcard
+                                                .clearfix
+                                    .clearfix
+                                    footer
+                                      .columns.eight
+                                        .content-pad Copyright © 2013 Adron B Hall
+                                      .columns.eight
+                                        .powered-by.content-pad
+                                          | Theme by the most excellent 
+                                          a(target='_blank', href='http://themeforest.net/user/mannatstudio') MannatStudio
+                          .clearfix
+    p#back-top(style='display: block;')
+      a(href='#top')  
