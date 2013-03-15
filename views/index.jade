@@ -43,8 +43,47 @@ block content
                         a.home(href='#home')
                           span.icon-wrap
                             i.icon-home
-                          | Home
+                          | Home @Adron
+                      li.tab
+                        a.meetups(href='#meetups')
+                          span.icon-wrap
+                            i.icon-group
+                          | Meetup Ops
+                      li.tab
+                        a.resources(href='#resources')
+                          span.icon-wrap
+                            i.icon-cogs
+                          | Resources
                     .panel-container
+                      #resources.page
+                        .content-wrap
+                          .columns.six
+                            .content-pad
+                              h3.org-head
+                                span ...for Adron.me
+                              ul
+                                li
+                                  a(href='http://fortawesome.github.com/Font-Awesome/')
+                                    span
+                                      i.icon-link
+                                      | Font Awesome 
+                                  | is a set of fonts, that are icons, of awesome. Built from the ground up to be pixel perfect & easy to use and integrate. They're also, to boot, ready for Twitter's Bootstrap too.
+                              h3.org-head
+                                span ...for Coding
+                              p more to come...
+                          .columns.five
+                          .clearfix
+                      #meetups.page
+                        .content-wrap
+                          .columns.six
+                            .content-pad
+                              h3.org-head
+                                span Meetup Operations
+                          .columns.five
+                            .content-pad
+                              .intro-head
+                                p.font24 These are meetups, conferences and related efforts I'm working on or helping with.
+                          .clearfix
                       #home.page
                         .content-wrap
                           .columns.six
