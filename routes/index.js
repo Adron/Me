@@ -7,5 +7,5 @@ exports.meetups = function(req, res){
 };
 
 exports.home2 = function(req, res){
-	res.render('home2', { title: 'Home Scratch' });
+	res.render('index', { title: 'Vcard @Adron' });
 };
