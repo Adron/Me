@@ -1,5 +1,8 @@
 extends layout
 
+block headerjs
+  script(type='text/javascript', src='js/jquery-proudify.min.js')
+  link(rel='stylesheet', href='css/proudify.min.css')
 block content
  #page
     #content
@@ -45,11 +48,28 @@ block content
                             i.icon-home
                           | Home @Adron
                       li.tab
+                        a.resources(href='#coderep')
+                          span.icon-wrap
+                            i.icon-github
+                          | Code Rep
+                      li.tab
                         a.resources(href='#resources')
                           span.icon-wrap
                             i.icon-cogs
                           | Resources
                     .panel-container
+                      #coderep.page
+                        .content-wrap
+                          .content.seven
+                            .content-pad
+                              h3.org-head
+                                span Coderwall Badges
+                              div.coderwall#coderwall
+                              div(style='clear:both')
+                              h3.org-head
+                                span Github Projects
+                              div.github#github
+                          .content.four
                       #resources.page
                         .content-wrap
                           .columns.six
@@ -116,3 +136,13 @@ block content
                 .clearfix
       p#back-top(style='display: block;')
         a(href='#top')
+block footerjs
+  |<script>
+  |$('#coderwall').proudify({username:'adron',service:'coderwall'});
+  |$('#github').proudify({username:'adron'});
+  |$('.proudify.social').hover(function(){
+  |$(this).animate({"left": "+=23px"}, "fast");},
+  |function()
+  |{$(this).animate({"left": "-=23px"}, "fast");});
+  |</script>
+  
