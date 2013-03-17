@@ -1,0 +1,72 @@
+extends layout
+
+block headerjs
+
+block content
+ #page
+    #content
+        .container.outer-wrap
+          .dark-bg
+            .fake-bg
+            .color-bg
+              .columns.four
+                #logo
+                  a(href='#')
+                    img(src='images/my_photo.png', alt='')
+                  .shadow-wrap
+                .content-pad
+                  h3.org-head
+                    span Social Consistency Ring
+                  .social-icons
+                    ul
+                      li
+                        a(href='http://twitter.com/adron')
+                          i.icon-twitter
+                      li
+                        a(href='http://www.facebook.com/adron')
+                          i.icon-facebook
+                      li
+                        a(href='https://plus.google.com/101393617397674633535')
+                          i.icon-google-plus
+                      li
+                        a(href='http://www.linkedin.com/in/adron')
+                          i.icon-linkedin
+                      li
+                        a(href='http://feeds.feedburner.com/LooselyCoupledHumanCodeFactory')
+                          i.icon-rss
+                  p This is a dedicated part of my site, to the projects I'm currently working on, the fellow coders I'm working with, and the general open source community efforts I monitor via 
+                    a(href='http://www.github.com') Github
+                    | .
+              .columns.twelve
+                #tab-body
+                  #tab-container.tab-container
+                    ul.etabs
+                      li.tab
+                        a.resources(href='github#coderep')
+                          span.icon-wrap
+                            i.icon-github
+                          | Projects
+                      li.tab
+                        a.home(href='../')
+                          span.icon-wrap
+                            i.icon-home
+                          | Home @Adron
+                    .panel-container
+                      #coderep.page
+                        .content-wrap
+                          .content.seven
+                            .content-pad
+                              h3.org-head
+                                span Github Projects
+                          .content.four
+                          .clearfix
+              .clearfix
+              footer
+                .columns.eight
+                  .content-pad Copyright © 2013 Adron B Hall
+                .clearfix
+      p#back-top(style='display: block;')
+        a(href='#top')
+
+block footerjs
+  
