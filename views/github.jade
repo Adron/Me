@@ -12,7 +12,7 @@ block content
               .columns.four
                 #logo
                   a(href='#')
-                    img(src='images/my_photo.png', alt='')
+                    img(src='images/github_i_share_code.png', alt='')
                   .shadow-wrap
                 .content-pad
                   h3.org-head
@@ -42,24 +42,34 @@ block content
                   #tab-container.tab-container
                     ul.etabs
                       li.tab
-                        a.resources(href='github#coderep')
+                        a.resources(href='#coderep')
                           span.icon-wrap
                             i.icon-github
-                          | Projects
+                          | Code Rep
                       li.tab
-                        a.home(href='../')
+                        a.resources(href='#resources')
                           span.icon-wrap
-                            i.icon-home
-                          | Home @Adron
+                            i.icon-cogs
+                          | Resources
                     .panel-container
                       #coderep.page
                         .content-wrap
                           .content.seven
                             .content-pad
                               h3.org-head
-                                span Github Projects
+                                span Github
+                              p Check out my
+                              p= title
+                              p= githubbinBasho
                           .content.four
-                          .clearfix
+                      #resources.page
+                        .content-wrap
+                          .content.seven
+                            .content-pad
+                              h3.org-head
+                                span Github
+                              p Check out my 
+                          .content.four
               .clearfix
               footer
                 .columns.eight
