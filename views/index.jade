@@ -33,7 +33,7 @@ block content
                         a(href='http://www.linkedin.com/in/adron')
                           i.icon-linkedin
                       li
-                        a(href='https://github.com/adron')
+                        a(href='github')
                           i.icon-github
                       li
                         a(href='http://feeds.feedburner.com/LooselyCoupledHumanCodeFactory')
@@ -64,11 +64,11 @@ block content
                             .content-pad
                               h3.org-head
                                 span Coderwall Badges
+                              p Check out my 
+                                a(href='github') Github Metrics
+                                | .
                               div.coderwall#coderwall
                               div(style='clear:both')
-                              h3.org-head
-                                span Github Projects
-                              div.github#github
                           .content.four
                       #resources.page
                         .content-wrap
@@ -115,15 +115,15 @@ block content
                                     i.icon-envelope-alt
                                   a(href='mailto://adronhall@gmail.com') adronhall@gmail.com
                                 p
-                                  span
-                                    i.icon-home
-                                  a(href='https://maps.google.com/maps?q=818+SW+3rd+Ave,+Portland,+OR&hl=en&ll=45.517309,-122.675829&spn=0.007623,0.019419&sll=45.522398,-122.684126&sspn=0.007622,0.019419&oq=818+SW+&hnear=818+SW+3rd+Ave,+Portland,+Multnomah,+Oregon+97204&t=m&z=16')  818 SW 3rd Ave, Portland, OR 97204
-                                p
                                   i.icon-globe
                                   a(href='http://compositecode.com') Composite Code
                                 p
                                   i.icon-download-alt
                                   a(href='adron_hall.vcf') My Vcard
+                                p
+                                  span
+                                    i.icon-home
+                                  a(href='https://maps.google.com/maps?q=818+SW+3rd+Ave,+Portland,+OR&hl=en&ll=45.517309,-122.675829&spn=0.007623,0.019419&sll=45.522398,-122.684126&sspn=0.007622,0.019419&oq=818+SW+&hnear=818+SW+3rd+Ave,+Portland,+Multnomah,+Oregon+97204&t=m&z=16')  818 SW 3rd Ave, Portland, OR 97204
                           .clearfix
               .clearfix
               footer
@@ -139,7 +139,6 @@ block content
 block footerjs
   |<script>
   |$('#coderwall').proudify({username:'adron',service:'coderwall'});
-  |$('#github').proudify({username:'adron'});
   |$('.proudify.social').hover(function(){
   |$(this).animate({"left": "+=23px"}, "fast");},
   |function()
