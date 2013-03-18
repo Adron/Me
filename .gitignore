@@ -27,3 +27,9 @@ results
 node_modules
 npm-debug.log
 
+# AWS Node.js Beanstalk files.
+node-express# cat > .gitignore <<EOT 
+node_modules/
+.gitignore
+.elasticbeanstalk/
+EOT

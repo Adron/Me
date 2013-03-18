@@ -9,8 +9,8 @@ var github = new GitHubApi({
 
 github.authenticate({
     type: "basic",
-    username: "adron",
-    password: "junkPassword"
+    username: "VertexShader",
+    password: "metal69"
 });
 
 github.orgs.get({
