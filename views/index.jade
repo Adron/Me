@@ -1,6 +1,9 @@
 extends layout
 
 block headerjs
+  script(src='js/knockout-2.2.1.js')
+  script(src='js/underscore-min.js')
+  script(src='js/gh3.js')
   script(type='text/javascript', src='js/jquery-proudify.min.js')
   link(rel='stylesheet', href='css/proudify.min.css')
 block content
@@ -33,7 +36,7 @@ block content
                         a(href='http://www.linkedin.com/in/adron')
                           i.icon-linkedin
                       li
-                        a(href='github')
+                        a(href='http://www.github.com/adron')
                           i.icon-github
                       li
                         a(href='http://feeds.feedburner.com/LooselyCoupledHumanCodeFactory')
@@ -48,28 +51,66 @@ block content
                             i.icon-home
                           | Home @Adron
                       li.tab
-                        a.resources(href='#coderep')
+                        a.resources(href='#github')
                           span.icon-wrap
                             i.icon-github
-                          | Code Rep
+                          | Coding                      
+                      li.tab
+                        a.resources(href='#organizations')
+                          span.icon-wrap
+                            i.icon-sitemap
+                          | Organizations
+                      li.tab
+                        a.resources(href='#blog')
+                          span.icon-wrap
+                            i.icon-pencil
+                          | Composite Code
                       li.tab
                         a.resources(href='#resources')
                           span.icon-wrap
-                            i.icon-cogs
+                            i.icon-book
                           | Resources
+                      li.tab
+                        a.resources(href='#apps')
+                          span.icon-wrap
+                            i.icon-beer
+                          | Beer & Apps
                     .panel-container
-                      #coderep.page
+                      #apps.page
                         .content-wrap
-                          .content.seven
+                          .content
+                            .content-pad
+                              h3.org-head
+                                span Beer Powered Applications
+                              p So, one can logically argue that the development of civil society was powered by beer. Thus, it's no stretch that all good software is powered in such ways.
+                      #blog.page
+                        .content-wrap
+                          .content
+                            .content-pad
+                              h3.org-head
+                                span Composite Code
+                              p This will be a feed of my blog, which is located at 
+                                a(href='http://compositecode.com') Composite Code
+                                | .
+                      #organizations.page
+                        .content-wrap
+                          .content
+                            .content-pad
+                              h3.org-head
+                                span Github Organizations
+                              p Github organizations I've formed or I'm involved in.
+                      #github.page
+                        .content-wrap
+                          .content
+                            .content-pad
+                              h3.org-head
+                                span Github Account Stats
+                              p My github specs, activities and related information will soon be displayed here in realtime.
                             .content-pad
                               h3.org-head
                                 span Coderwall Badges
-                              p Check out my 
-                                a(href='github') Github Metrics
-                                | .
                               div.coderwall#coderwall
                               div(style='clear:both')
-                          .content.four
                       #resources.page
                         .content-wrap
                           .columns.six

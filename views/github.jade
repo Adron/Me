@@ -1,7 +1,9 @@
 extends layout
 
 block headerjs
-
+  script(src='js/knockout-2.2.1.js')
+  script(src='js/underscore-min.js')
+  script(src='js/gh3.js')
 block content
  #page
     #content
@@ -59,8 +61,9 @@ block content
                               h3.org-head
                                 span Github
                               p Check out my
-                              p= title
-                              p= githubbinBasho
+                              p(data-bind='text: orgName')
+                              p(data-bind='text: orgUrl')
+                              ul#user
                           .content.four
                       #resources.page
                         .content-wrap
@@ -77,6 +80,25 @@ block content
                 .clearfix
       p#back-top(style='display: block;')
         a(href='#top')
-
+        
 block footerjs
-  
+  script(type='text/javascript')
+    function AppViewModel() {
+    this.orgName = "Test";
+    this.orgUrl = "GotKnockout?";};
+
+    ko.applyBindings(new AppViewModel());
+
+    var adron = new Gh3.User("adron"), userInfos = $("#user");
+
+    adron.fetch(function (err, resUser){
+    if(err) {
+    throw "outch ..."
+    }
+    console.log(adron, resUser);
+    _.each(_.keys(resUser), function (prop) {
+    userInfos.append(
+    $('<li>').append(prop+" : "+resUser[prop])
+    );
+    });
+    });
