@@ -11,3 +11,7 @@ exports.index = function(req, res){
 exports.presentations = function(req, res){
 	res.render('presentations', {title: 'Presentations' });
 };
+
+exports.test_presentations = function(req, res){
+	res.render('test_presentations', {title: 'Presentation Test'});
+}
