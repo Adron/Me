@@ -7,3 +7,7 @@ exports.github = function(req, res){
 exports.index = function(req, res){
     res.render('index', { title: 'Vcard @adron' });
 };
+
+exports.presentations = function(req, res){
+	res.render('presentations', {title: 'Presentations' });
+};

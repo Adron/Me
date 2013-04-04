@@ -13,12 +13,12 @@ block content
             .color-bg
               .columns.four
                 #logo
-                  a(href='#')
-                    img(src='images/github_i_share_code.png', alt='')
+                  a(href='https://github.com/adron')
+                    img(src='images/github_i_share_code.png', alt='Home')
                   .shadow-wrap
                 .content-pad
                   h3.org-head
-                    span Social Consistency Ring
+                    span Head to Hoe
                   .social-icons
                     ul
                       li
@@ -44,7 +44,12 @@ block content
                   #tab-container.tab-container
                     ul.etabs
                       li.tab
-                        a.resources(href='#coderep')
+                        a.home(href='/')
+                          span.icon-wrap
+                            i.icon-home
+                          | Home
+                      li.tab
+                        a.coderep(href='#coderep')
                           span.icon-wrap
                             i.icon-github
                           | Code Rep
@@ -54,6 +59,17 @@ block content
                             i.icon-cogs
                           | Resources
                     .panel-container
+                      #home.page
+                        .content-wrap
+                          .content.seven
+                            .content-pad
+                              h3.org-head
+                                span Github
+                              p Check out my ...
+                              p(data-bind='text: orgName')
+                              p(data-bind='text: orgUrl')
+                              ul#user
+                          .content.four
                       #coderep.page
                         .content-wrap
                           .content.seven
