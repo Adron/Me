@@ -8,7 +8,6 @@
   "dependencies": {
     "github": "*",
     "express": "3.1.0",
-    "riak-js": "*",
     "jade": "*"
   },
   "subdomain": "adron",
