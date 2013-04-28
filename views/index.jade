@@ -74,7 +74,7 @@ block content
                             i.icon-book
                           | Resources
                       li.tab
-                        a.resources(href='#apps')
+                        a.apps(href='#apps')
                           span.icon-wrap
                             i.icon-beer
                           | Bikes Beers & Apps
@@ -122,7 +122,16 @@ block content
                                     span
                                       i.icon-github
                                       | Basho
-
+                                li
+                                  a(href='https://github.com/organizations/cloudfoundry')
+                                    span
+                                      i.icon-github
+                                      | Cloud Foundry
+                                li
+                                  a(href='https://github.com/organizations/openshift')
+                                    span
+                                      i.icon-github
+                                      | OpenShift
                               h3.org-head
                                 span Presentations & Workshops
                               ul
@@ -148,7 +157,6 @@ block content
                                 span Coderwall Badges
                               div.coderwall#coderwall
                               div(style='clear:both')
-
                       #resources.page
                         .content-wrap
                           .columns.eleven
@@ -174,6 +182,18 @@ block content
                                       i.icon-link
                                       | Node.js
                                   |  Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Because of this, I've used it as a primary base for distributing my personal site.
+                                li
+                                  a(href='http://basho.com/riak/')
+                                    span
+                                      i.icon-link
+                                      | Riak
+                                  |  Riak is an open source, distributed database. It is designed for:
+                                  ul
+                                    li - Availability: Riak replicates and retrieves data intelligently so it is available for read and write operations, even in failure conditions;
+                                    li - Fault-Tolerance: You can lose access to many nodes due to network partition or hardware failure without losing data;
+                                    li - Operational Simplicity: Add new machines to your Riak cluster easily without incurring a larger operational burden – the same ops tasks apply to small clusters as large clusters;
+                                    li - Scalability: Riak automatically distributes data around the cluster and yields a near-linear performance increase as you add capacity.
+                                  | I'll have several systems coming live mid-2013 that will utilize Riak as a back end database for storage, retrieval and search results across various parts of the site.
                           .clearfix
 
                       #home.page
