@@ -27,9 +27,9 @@ block content
               li
                 a.scroller(href='#testimonials') Testimonials
               li
-                a.scroller(href='#hobbies') Hobbies
+                a.scroller(href='#hobbies') Domain Interests
               li
-                a.scroller(href='#portfolio') Portfolio
+                a.scroller(href='#projects') Projects
               li
                 a.scroller(href='#blog') Blog
               li
@@ -76,8 +76,6 @@ block content
                 .tips.icon-btn(title='Composite Code', data-placement='bottom')
                   a.glyphicons.white.rss(href='http://www.github.com/adron')
                     i
-          //
-            /section
           #personal-information.section
             h2.section-title
               span.glyphicons.user
@@ -113,9 +111,11 @@ block content
                   .span2.muted Website
                   .span7
                     a(href='http://compositecode.com', title='') Composite Code
+                    br
+                    a(href='http://adron.me') Adron.me
+                    br
+                    a(href='http://photos.adron.me') Photos
               span.clear
-          //
-            /section
           #employment.section
             h2.section-title
               span.glyphicons.share_alt
@@ -142,8 +142,6 @@ block content
                       | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
                     p
                       a.noprint(href='#', title='') → View website
-              //
-                /timeline-item
               span.clear
               .timeline-item
                 .timeline-item-date 2010 - 2011
@@ -340,12 +338,32 @@ block content
             h2.section-title
               span.glyphicons.heart_empty
                 i
-              | Hobbies
+              | Domain Interests
               a.top.visible-phone(href='#phone-navbar')
                 span.glyphicons.white.up_arrow
                   i
             .row
               .span9
+                span.label
+                  span.glyphicons.white.bicycle
+                    i
+                    | Bicycling
+                span.label
+                  span.glyphicons.white.bus
+                    i
+                    | Transit
+                span.label
+                  span.glyphicons.white.train
+                    i
+                    | Trains
+                span.label
+                  span.glyphicons.white.home
+                    i
+                    | Livability
+                span.label
+                  span.glyphicons.white.truck
+                    i
+                    | Logistics
                 span.label.tips.mobtoo(title='I love sci-fy & action movies')
                   span.glyphicons.white.film
                     i
@@ -360,10 +378,6 @@ block content
                   span.glyphicons.white.pool
                     i
                     | Swimming
-                span.label
-                  span.glyphicons.white.bicycle
-                    i
-                    | Bicycling
                 span.label
                   span.glyphicons.white.baseball
                     i
@@ -386,121 +400,121 @@ block content
                     | Cooking
           //
             /section
-          #portfolio.section.clearfix.noprint
+          #projects.section.clearfix.noprint
             h2.section-title
               span.glyphicons.show_thumbnails
                 i
-              | Portfolio
+              | Projects
               a.top.visible-phone(href='#phone-navbar')
                 span.glyphicons.white.up_arrow
                   i
-            ul#portfolio-filters.nav.nav-pills
+            ul#projects-filters.nav.nav-pills
               li.active
                 a(href='#', data-filter='*') All
               li
-                a(href='#', data-filter='.portfolio-type1') Type 1
+                a(href='#', data-filter='.projects-type1') Type 1
               li
-                a(href='#', data-filter='.portfolio-type2') Type 2
+                a(href='#', data-filter='.projects-type2') Type 2
               li
-                a(href='#', data-filter='.portfolio-type3') Type 3
+                a(href='#', data-filter='.projects-type3') Type 3
             //
-               Featured Portfolio items 
-            #portfolio-items.row
-              .span3.portfolioitem.portfolio-type1
+               Featured Projects items 
+            #projects-items.row
+              .span3.projectsitem.projects-type1
                 img(src='./images/thumb01.jpg', alt='')
-                .portfolioitem-hoverinfo
+                .projectsitem-hoverinfo
                   h3 Lorem ipsum
                   p
                     | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                  .portfolioitem-actions
-                    a.tips.img-circle.lightbox(href='./images/01.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[portfolioimages]')
+                  .projectsitem-actions
+                    a.tips.img-circle.lightbox(href='./images/01.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[projectsimages]')
                       span.glyphicons.white.zoom_in
                         i
-                    a.tips.more-info.img-circle(href='#portfolioitem-1', title='View Project', data-placement='bottom')
+                    a.tips.more-info.img-circle(href='#projectsitem-1', title='View Project', data-placement='bottom')
                       span.glyphicons.white.share
                         i
               //
-                /portfolioitem
-              .span3.portfolioitem.portfolio-type2
+                /projectsitem
+              .span3.projectsitem.projects-type2
                 img(src='./images/thumb02.jpg', alt='')
-                .portfolioitem-hoverinfo
+                .projectsitem-hoverinfo
                   h3 Cras gravida fringilla
                   p Donec eros magna, blandit eu tempus a, ornare quis nulla.
-                  .portfolioitem-actions
-                    a.tips.img-circle.lightbox(href='./images/02.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[portfolioimages]')
+                  .projectsitem-actions
+                    a.tips.img-circle.lightbox(href='./images/02.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[projectsimages]')
                       span.glyphicons.white.zoom_in
                         i
-                    a.tips.more-info.img-circle(href='#portfolioitem-2', title='View Project', data-placement='bottom')
+                    a.tips.more-info.img-circle(href='#projectsitem-2', title='View Project', data-placement='bottom')
                       span.glyphicons.white.share
                         i
               //
-                /portfolioitem
-              .span3.portfolioitem.portfolio-type3
+                /projectsitem
+              .span3.projectsitem.projects-type3
                 img(src='./images/thumb03.jpg', alt='')
-                .portfolioitem-hoverinfo
+                .projectsitem-hoverinfo
                   h3 Nulla diam lacus
                   p Curabitur risus lacus, congue eget condimentum id, feugiat et nisl.
-                  .portfolioitem-actions
-                    a.tips.img-circle.lightbox(href='./images/03.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[portfolioimages]')
+                  .projectsitem-actions
+                    a.tips.img-circle.lightbox(href='./images/03.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[projectsimages]')
                       span.glyphicons.white.zoom_in
                         i
-                    a.tips.more-info.img-circle(href='#portfolioitem-3', title='View Project', data-placement='bottom')
+                    a.tips.more-info.img-circle(href='#projectsitem-3', title='View Project', data-placement='bottom')
                       span.glyphicons.white.share
                         i
               //
-                /portfolioitem
-              .span3.portfolioitem.portfolio-type1
+                /projectsitem
+              .span3.projectsitem.projects-type1
                 img(src='./images/thumb04.jpg', alt='')
-                .portfolioitem-hoverinfo
+                .projectsitem-hoverinfo
                   h3 Proin quam lacus
                   p Proin quam lacus, dapibus non sodales ac, pharetra et urna.
-                  .portfolioitem-actions
-                    a.tips.img-circle.lightbox(href='./images/04.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[portfolioimages]')
+                  .projectsitem-actions
+                    a.tips.img-circle.lightbox(href='./images/04.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[projectsimages]')
                       span.glyphicons.white.zoom_in
                         i
-                    a.tips.more-info.img-circle(href='#portfolioitem-4', title='View Project', data-placement='bottom')
+                    a.tips.more-info.img-circle(href='#projectsitem-4', title='View Project', data-placement='bottom')
                       span.glyphicons.white.share
                         i
               //
-                /portfolioitem
-              .span3.portfolioitem.portfolio-type2
+                /projectsitem
+              .span3.projectsitem.projects-type2
                 img(src='./images/thumb05.jpg', alt='')
-                .portfolioitem-hoverinfo
+                .projectsitem-hoverinfo
                   h3 Tellus ligula
                   p Cras vestibulum, mi aliquam molestie tincidunt, tellus ligula tempor neque. 
-                  .portfolioitem-actions
-                    a.tips.img-circle.lightbox(href='./images/05.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[portfolioimages]')
+                  .projectsitem-actions
+                    a.tips.img-circle.lightbox(href='./images/05.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[projectsimages]')
                       span.glyphicons.white.zoom_in
                         i
-                    a.tips.more-info.img-circle(href='#portfolioitem-5', title='View Project', data-placement='bottom')
+                    a.tips.more-info.img-circle(href='#projectsitem-5', title='View Project', data-placement='bottom')
                       span.glyphicons.white.share
                         i
               //
-                /portfolioitem
-              .span3.portfolioitem.portfolio-type1
+                /projectsitem
+              .span3.projectsitem.projects-type1
                 img(src='./images/thumb07.jpg', alt='')
-                .portfolioitem-hoverinfo
+                .projectsitem-hoverinfo
                   h3 In sed eleifend orci
                   p Morbi ultrices ullamcorper magna, quis placerat libero pretium at.
-                  .portfolioitem-actions
-                    a.tips.img-circle.lightbox(href='./images/07.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[portfolioimages]')
+                  .projectsitem-actions
+                    a.tips.img-circle.lightbox(href='./images/07.jpg', title='Preview image', data-placement='bottom', rel='prettyPhoto[projectsimages]')
                       span.glyphicons.white.zoom_in
                         i
-                    a.tips.more-info.img-circle(href='#portfolioitem-6', title='View Project', data-placement='bottom')
+                    a.tips.more-info.img-circle(href='#projectsitem-6', title='View Project', data-placement='bottom')
                       span.glyphicons.white.share
                         i
               //
-                /portfolioitem
+                /projectsitem
             //
               /row
             //
-               /Featured Portfolio Items 
-            #full-portfolio-items.row
+               /Featured Projects Items 
+            #full-projects-items.row
               .span9
-                a#portfolio-back.btn.btn-primary.hidden(href='#') ← Back to Portfolio List
+                a#projects-back.btn.btn-primary.hidden(href='#') ← Back to Projects List
                 //
-                   This is a Portfolio item 
-                #portfolioitem-1.portfolioitem-content.hidden
+                   This is a Projects item 
+                #projectsitem-1.projectsitem-content.hidden
                   img(src='./images/01.jpg', alt='')
                   h2.primary-color Lorem ipsum
                   h3 Lectus tristique scelerisque
@@ -508,14 +522,14 @@ block content
                     | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
                   ul.pager
                     li.previous
-                      a.(href='#portfolioitem-6') ← Previous
+                      a.(href='#projectsitem-6') ← Previous
                     li.next
-                      a.(href='#portfolioitem-2') Next →
+                      a.(href='#projectsitem-2') Next →
                 //
-                   /Portfolio item 
+                   /Projects item 
                 //
-                   This is a Portfolio item 
-                #portfolioitem-2.portfolioitem-content.hidden
+                   This is a Projects item 
+                #projectsitem-2.projectsitem-content.hidden
                   img(src='./images/02.jpg', alt='')
                   h2.primary-color Cras gravida fringilla
                   h3 Accumsan dolor ornare
@@ -523,14 +537,14 @@ block content
                     | Vivamus gravida convallis est, non tristique nisl pellentesque ut. Praesent congue tortor vel quam scelerisque in suscipit elit malesuada. Nam volutpat ultricies augue, ac accumsan dolor ornare eu. Nam ut egestas nulla. Nunc ullamcorper, nulla vitae pellentesque dictum, diam ligula iaculis ipsum, aliquam vestibulum leo libero vel turpis. Nunc cursus dignissim sodales.
                   ul.pager
                     li.previous
-                      a.(href='#portfolioitem-1') ← Previous
+                      a.(href='#projectsitem-1') ← Previous
                     li.next
-                      a.(href='#portfolioitem-3') Next →
+                      a.(href='#projectsitem-3') Next →
                 //
-                   /Portfolio item 
+                   /Projects item 
                 //
-                   This is a Portfolio item 
-                #portfolioitem-3.portfolioitem-content.hidden
+                   This is a Projects item 
+                #projectsitem-3.projectsitem-content.hidden
                   img(src='./images/03.jpg', alt='')
                   h2.primary-color Nulla diam lacus
                   h3 Etiam sagittis, felis id 
@@ -540,14 +554,14 @@ block content
                     | Sed nisl sem, semper id sollicitudin vitae, pharetra at tellus. Ut eu sem vitae erat rhoncus posuere. Praesent hendrerit, nunc nec molestie bibendum, leo metus volutpat lacus, a luctus ante massa a lectus. Etiam sagittis, felis id dignissim pulvinar, purus lorem tempor lectus, et suscipit mauris lorem et elit.
                   ul.pager
                     li.previous
-                      a.(href='#portfolioitem-2') ← Previous
+                      a.(href='#projectsitem-2') ← Previous
                     li.next
-                      a.(href='#portfolioitem-4') Next →
+                      a.(href='#projectsitem-4') Next →
                 //
-                   /Portfolio item 
+                   /Projects item 
                 //
-                   This is a Portfolio item 
-                #portfolioitem-4.portfolioitem-content.hidden
+                   This is a Projects item 
+                #projectsitem-4.projectsitem-content.hidden
                   img(src='./images/04.jpg', alt='')
                   h2.primary-color Proin quam lacus
                   h3 Subtitle
@@ -555,14 +569,14 @@ block content
                     | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.
                   ul.pager
                     li.previous
-                      a.(href='#portfolioitem-3') ← Previous
+                      a.(href='#projectsitem-3') ← Previous
                     li.next
-                      a.(href='#portfolioitem-5') Next →
+                      a.(href='#projectsitem-5') Next →
                 //
-                   /Portfolio item 
+                   /Projects item 
                 //
-                   This is a Portfolio item 
-                #portfolioitem-5.portfolioitem-content.hidden
+                   This is a Projects item 
+                #projectsitem-5.projectsitem-content.hidden
                   img(src='./images/05.jpg', alt='')
                   h2.primary-color Tellus ligula
                   h3 ullam pharetra, metus id semper fringilla
@@ -570,14 +584,14 @@ block content
                     | Praesent suscipit pellentesque est, non blandit ante feugiat in. Aliquam erat volutpat. Donec lorem sem, vestibulum ac vehicula in, tempus sit amet sem. Curabitur nec ante risus. Integer libero nunc, euismod in mattis ac, auctor in arcu. Nullam pharetra, metus id semper fringilla, est lorem euismod lectus, at dignissim elit turpis et dolor. Praesent adipiscing, metus eget lacinia viverra, dolor nibh consequat erat, a rutrum leo nulla non metus.
                   ul.pager
                     li.previous
-                      a.(href='#portfolioitem-4') ← Previous
+                      a.(href='#projectsitem-4') ← Previous
                     li.next
-                      a.(href='#portfolioitem-6') Next →
+                      a.(href='#projectsitem-6') Next →
                 //
-                   /Portfolio item 
+                   /Projects item 
                 //
-                   This is a Portfolio item 
-                #portfolioitem-6.portfolioitem-content.hidden
+                   This is a Projects item 
+                #projectsitem-6.projectsitem-content.hidden
                   img(src='./images/07.jpg', alt='')
                   h2.primary-color In sed eleifend orci
                   h3 Enim mauris rhoncus elit
@@ -587,11 +601,11 @@ block content
                     | Suspendisse ut tortor ligula, id fringilla mi. Curabitur bibendum tortor tempus sem posuere vehicula accumsan mauris molestie. Etiam eget nulla vel sem tristique dapibus. In orci justo, pharetra vel scelerisque eu, gravida vel felis. Etiam mattis blandit rutrum. Maecenas viverra massa sed sem feugiat sed mollis dolor venenatis. In aliquet, sem et cursus scelerisque, enim mauris rhoncus elit, sit amet ornare massa metus non lectus.
                   ul.pager
                     li.previous
-                      a.(href='#portfolioitem-5') ← Previous
+                      a.(href='#projectsitem-5') ← Previous
                     li.next
-                      a.(href='#portfolioitem-1') Next →
+                      a.(href='#projectsitem-1') Next →
                 //
-                   /Portfolio item 
+                   /Projects item 
               //
                 /span9
             //
@@ -969,9 +983,9 @@ block content
               li
                 a.scroller(href='#testimonials') Testimonials
               li
-                a.scroller(href='#hobbies') Hobbies
+                a.scroller(href='#hobbies') Domain Interests
               li
-                a.scroller(href='#portfolio') Portfolio
+                a.scroller(href='#projects') Projects
               li
                 a.scroller(href='#blog') Blog
               li
