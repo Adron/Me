@@ -28,7 +28,7 @@ Kristen Mozian
 Client Services Manager, Small Business Development Center, CLIMB Center at Portland Community College
 Estuary(Link)
 June 2013 – Present
-This project is setup to provide an 'estuary' of API data feeds into a central organized storage and API engine. It is intended for use to store, report, trend and analysis of the data collected for education and fun.
+This project is setup to provide an 'estuary' of API data feeds into a central organized storage and API engine. It is intended for use to store, report, trend and analyze of the data collected for education and fun.
 
 The following diagram lays out how the Estuary Engine works. It's part collector, part message queue and part Riak data feeder. Basically, I've modeled this after various...more
 Node PDX(Link)
