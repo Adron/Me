@@ -1,0 +1,517 @@
+Junction(Link)
+August 2013
+Junction - Windows 8 Interface for administration, management and data manipulation of Riak Clusters.
+
+Features - this is the shortlist of what the project is aiming for:
+
+Call the Doctor! (Administration & Maintenance) This part of the application would provide an interface for all the general administration and maintenance needs around individual nodes and around the overall cluster of nodes. The ability to add, remove and generally administer everything that is available via the riak-admin command line interface.
+
+Time Travel That Data (Performance Benchmarking) This section of the application will provide the ability to benchmark the timing of data in and out of a cluster. In addition it should show standard benchmarking similar to that which is offered with the basho_bench project.
+
+Love of the Data (Reporting) This division of the application would be focused on reporting. I'm not sure what exactly that would entail, but something with charts, graphs and pulling together trending points of some sort. If you have ideas and want to work on this part of the application, weigh in!
+
+Golfing With Your Data (Query, Put, Deletes, Etc. Handling the CRUD) The application will have an interface to provide access to add and remove data, as well as viewing the data that is available within a cluster. The primary means for implementing this part of the application will be with the CorrugatedIron Project. It's a library available via Nuget that @peschkaj and @OJ have put together.
+
+News! News! News! (News... RSS Feed Reader) The idea is that this will provide a quick and easy way to get familiar with Windows 8 dev and the project overall. I'm aiming to eat the Basho blog feed and provide it as key highlights for the application with future abilities around mining other RSS feeds or such and having those fed into a ?? Riak Cluster? Again, everything is open to change, addition or removal! So jump into the project and let me know your thoughts.less
+(Open)5 team members, including:
+Adron Hall
+Adron Hall
+Coder, Recon, Messenger on Extended Hacker Vacation
+Jared Wray
+Jared Wray
+Founder and CTO at Tier 3
+clive boulton
+clive boulton
+Product Development, Advisory and Consulting
+Kristen Mozian
+Kristen Mozian
+Client Services Manager, Small Business Development Center, CLIMB Center at Portland Community College
+Estuary(Link)
+June 2013 – Present
+This project is setup to provide an 'estuary' of API data feeds into a central organized storage and API engine. It is intended for use to store, report, trend and analysis of the data collected for education and fun.
+
+The following diagram lays out how the Estuary Engine works. It's part collector, part message queue and part Riak data feeder. Basically, I've modeled this after various...more
+Node PDX(Link)
+February 2012 – Present
+Node PDX was started by Troy Howard & Adron Hall to get a Node.js, but primarily JavaScript based conference started in Portland, Oregon. This website, built on github, all calls for proposals done through github, and other errata are done through github for the Node PDX Conference. This effort has now grown into a user group that is extending the current JavaScript Admirers Group in Portland,...more
+3 team members
+Adron Hall
+Adron Hall
+Coder, Recon, Messenger on Extended Hacker Vacation
+Troy Howard
+Troy Howard
+Developer, Super Genius at AppFog
+Luc Perkins
+Luc Perkins
+Developer advocate at Janrain
+New Relic Riak Plugin(Link)
+May 2013
+This plugin is installed on any of your Riak nodes and automatically provides performance data for custom dashboards and related reports with New Relic's SaaS Offering.
+2 team members
+Adron Hall
+Adron Hall
+Coder, Recon, Messenger on Extended Hacker Vacation
+Andrew Kerrigan
+Andrew Kerrigan
+Consulting Engineer at Basho Technologies, Inc
+Iron Foundry(Link)
+March 2012 – December 2012
+Iron Foundry is a project that extends .NET support and provides tooling around the Cloud Foundry PaaS Software Ecosystem.
+
+I've been working as the community lead and as coding contributor to the Iron Foundry Organization and Open Source Projects since joining Tier 3 in March. The Iron Foundry Project was started in 2011 and officially released in December 13th of 2011 by Jared Wray, CEO &...more
+(Open)5 team members, including:
+Adron Hall
+Adron Hall
+Coder, Recon, Messenger on Extended Hacker Vacation
+Eric Lee
+Eric Lee
+Senior Software Engineer at Tier 3
+Jared Wray
+Jared Wray
+Founder and CTO at Tier 3
+No photo
+Luke Bakken
+Thor Projects(Link)
+August 2012 – Present
+The Iron Foundry Organization Team I am part of was the first .NET extension for Cloud Foundry and is now the leading solution for .NET and SQL Server support. We didn't want to stop with Iron Foundry Extensions, thus enter the Thor project. The team saw a gap in management tooling for Cloud Foundry environments and are building a rich, full-featured UI client for both OS-X and Windows.
+2 team members
+Adron Hall
+Adron Hall
+Coder, Recon, Messenger on Extended Hacker Vacation
+
+Experience
+Startup & Small Biz Chief Startup Technology Officer
+Three Step Solutions
+September 2010 – Present (3 years 1 month)Portland, Seattle, Vancouver BC and San Francisco
+I've setup a company to work with startups and small businesses with getting the right architecture, build and deployed product into place. I've pushed this business forward using lean startup approaches, focused on quality, user experience, and putting together teams that can get products built and deployed.
+
+My focus and customer base has been startups in the very early stages of funding with early stage funding such as seed or A series, and small businesses working to grow their client base.
+
+My approach has been technology neutral; However the technology frameworks used focused on; node.js for simple services, Ruby on Rails, Sinatra, JavaScript using jQuery and related libraries for UI, mobile UI, and related multi-tier web development. For more about these implementations, suggestions, practices, and other information please check out my blog at http://compositecode.com
+(Open)3 projects
+(Open)3 organizations
+Node.js rulz! JavaScript takes over the full Stack
+Node.js rulz! JavaScript takes over the full Stack
+ Continuosly Kicking Ass
+Continuosly Kicking Ass
+Chief Hacker & Blogger
+Composite Code
+August 2006 – Present (7 years 2 months)Portland, OR
+I've been blogging, technical content from how-to write ups to articles on technology changes and advances over the years.
+Only Yahoos Work in an Office!?
+Only Yahoos Work in an Office!?
+ Coder's Vacation : OMG! JavaScript Libraries Spilled EVERYWHERE! Series #001
+Coder's Vacation : OMG! JavaScript Libraries Spilled EVERYWHERE! Series #001
+ Test Driven Development Built Name Generator Part 1
+Test Driven Development Built Name Generator Part 1
+ Surface &amp; iPad Collision Course
+Surface &amp; iPad Collision Course
+ Lists of Lists of Lists: Conferences
+Lists of Lists of Lists: Conferences
+SEE MORE
+Technology Writer / Author
+CloudAve
+December 2010 – Present (2 years 10 months)Anywhere
+At CloudAve I've put together and written numerous articles on Cloud Computing, Software Development, and Leadership in the Software Industry. Through this position I have built relationships, elaborated on cloud computing, and expanded the knowledge of this industry with other thought leaders in the industry.
+
+As part of the the role of writer, I also attend conferences such as OSCON, OS Bridge, Agile Open Northwest, and others to gain insight to the movement and development of cloud, development, and related technologies.
+(Open)1 recommendation
+Krishnan Subramanian
+Krishnan Subramanian
+Director, OpenShift Strategy at Red Hat
+I have worked with Adron in the industry as a colleague at CloudAve and an industry peer. His insights on the industry are very sharp and I always trusted him on that. It is one of the reason why I had him on a panel at Deploycon 2013. I also...View
+A Conversation on Cloud Computing, PaaS, Distributed Systems & Marketing Message Cleanups...
+A Conversation on Cloud Computing, PaaS, Distributed Systems & Marketing Message Cleanups...
+ The Database Deluge... Who's Who
+The Database Deluge... Who's Who
+ 3 Things Companies Do Wrong by Developers, The New King Makers
+3 Things Companies Do Wrong by Developers, The New King Makers
+ Nonsense "Cloud" Marketing, Kill The Cloud Already, Please!
+Nonsense "Cloud" Marketing, Kill The Cloud Already, Please!
+ Adam & Krishan Got Me Motivated Today... to toss the trash conversations
+Adam & Krishan Got Me Motivated Today... to toss the trash conversations
+SEE MORE
+ Basho Technologies, IncCoder, Messenger, Recon (i.e. Technical Evangelist)
+Basho Technologies, Inc
+November 2012 – August 2013 (10 months)Portland, Seattle, Vancouver (BC) & other places near you!
+Responsible for partnership reconnoitering, assisting on sales calls, working with partnership integration at New Relic and others. Handled all community organizing, conference organization and outreach in the Pacific Northwest (Cascadia Region). The user groups I formed and managed included two key groups.
+- Seattle Basho & Riak User Groups http://www.meetup.com/Seattle-Riak/
+- Portland Basho & Riak User Groups http://www.meetup.com/Portland-Riak/
+
+I also attended, spoke at and provided training at a number of conferences and user groups throughout the United States.
+
+Coding & development of vertical integration projects along with other horizontally scaled integration projects. From a tactical perspective integration involved JavaScript (Node.js), Ruby (on Rails, Sinatra or other variances), middleman for documentation, .NET and other languages working with Riak. Assisted customers with horizontal and vertical architecture around networking, security and other requirements to implement Riak, Riak with Redis, Neo4j, Postgres and other various technologies to provide highly available, scalable, high performance, resilient distributed data systems for application development.
+(Open)1 project
+(Open)2 recommendations
+Andrew Kerrigan
+Andrew Kerrigan
+Consulting Engineer at Basho Technologies, Inc
+I worked with Adron on a few New Relic plugins for Riak monitoring. He managed the project and directly interacted with the...View
+John Hornbeck
+John Hornbeck
+Data Scientist at Basho Technologies, Inc
+Adron is an extremely hard worker and played a key role engaging the Riak community in the Pacific Northwest. He regularly...View
+Tier 3Iron Foundry Organization Coder & Community Lead
+Tier 3
+November 2012 – February 2013 (4 months)Portland, OR
+Working with the open source community and the Tier 3 team to further the Iron Foundry Community (http://www.ironfoundry.org/) and push forward the Thor Projects (http://www.ironfoundry.org/thor) around the Cloud Foundry Community & Products (http://www.cloudfoundry.org). Private, enterprise or public PaaS technologies.
+Tier 3Coder, Iron Foundry Organizer, & Product Manager
+Tier 3
+March 2012 – November 2012 (9 months)Anywhere, Earth, but primarily Portland, OR
+I joined Tier 3 in March to lead the Web Fabric PaaS Team, expand the Iron Foundry Community (http://www.ironfoundry.org/) and push forward the Thor Projects (http://www.ironfoundry.org/thor).
+
+The initial release of the Tier 3 Web Fabric was deployed in May (http://www.tier3.com/blog/web-data-fabric). After the release I have focused primarily around advocacy, community leadership around the Iron Foundry Open Source Software Projects and initiating, building and leading the team that is coding the Thor Project as a UI for Cloud Foundry PaaS Environments.
+
+In addition to these efforts I also routinely speak at user groups, keynotes, or other groups and lead community efforts around mentoring, teaching and expanding programming practice and knowledge in several cities including Seattle, Portland, San Francisco and generally anywhere I can get to and organize events.
+(Open)2 projects
+(Open)2 recommendations
+Shantu Roy
+Shantu Roy
+Senior Product Manager at Tier 3
+I had the privilege to work with Adron at Tier3. Both of us worked together in a team that brought IronFoundry to the...View
+Adam Wray
+Adam Wray
+Cloud Services Executive
+Adron exemplifies the best combination of technical excellence and business confidence that we strived to install across our...View
+New Relic, Inc.Lead Cloud Development Advocate & Writer
+New Relic, Inc.
+March 2012 – November 2012 (9 months)Anywhere
+Working with New Relic I've produced and continue to produce a series of blog articles (http://blog.newrelic.com/) based around Platform as a Service (PaaS) Technologies, Node.js Applications and deployments and a number of other various topics.
+
+Along with the articles I've written for the New Relic Blog there have been a number of others for related publications that I've written in conjunction with New Relic. These publications include; Mashable, Silicon Angle and Read, Write, Web. Links to those articles can be found here: http://compositecode.com/write-up-series/my-work-elsewhere/
+
+In addition to the blog I've worked with them on integration work related to the Tier 3 + New Relic integration of the data collection and APM tooling, also with their teams to integrate within other PaaS environments such as Cloud Foundry.
+Chief Software Architect
+Ghallt Enterprises
+January 2004 – September 2012 (8 years 9 months)Portland, OR & Los Angeles, CA
+-Performed custom installations of .NET Applications. During this we utilized .NET Framework 1.0, 1.1, 2.0, 3.0, and 3.5 in development of applications. Also technologies included WCF, Web Services, ASP.NET, and many other .NET Framework libraries, tools, and features.
+-Applications ranged from web social networks to CRM and other enterprise tools. Applications oriented toward Web 2.0 designs and standards.
+-During development maintained SaaS Source Code Control (Subversion), SaaS Communication Tools, Visual Studio, Unit Testing, and other tools.
+(Open)1 recommendation
+Michael Glenn (michael.b.glenn@gmail.com)
+Michael Glenn (michael.b.glenn@gmail.com)
+CEO at Devion
+Adron has consistantly gone above and beyond all aspects of software development and client maintience. As it is always scary going into business with someone, I couldn't have asked for a better partner than Adron. Quick, accurate responses, plans...View
+Russell InvestmentsSenior Application Developer
+Russell Investments
+November 2010 – January 2012 (1 year 3 months)Seattle, WA
+I'm currently working on Enterprise Systems & related architecture to bridge data from many inbound sources to create cohesive information and reporting displays for traders, accountants, and others within the company.
+
+Other Projects Include:
+Training & mentoring provided for various tools within our team such as Git, Visual Studio, Unit Testing, TDD, and more.
+Consulting on enterprise high availability solutions, opportunities within the company for existing architecture, and where our future paths lead around these goals.
+Coding within teams using TDD/BDD pair programming techniques. High communication, high velocity, high quality development with proactive burn down and charting to provide management with insight to remove barriers to development.
+
+Currently we use a plethora of open source tooling and work with multiple frameworks. The primary production deployed frameworks are centered around .NET and Windows Server Technology, however our team works daily on new ways that push the barriers, regularly with technology outside of the Microsoft Stack such as; node.js, Javascript Libraries, Ruby, Rails, Sinatra, and many others. If it can help us move our technology utilization forward, the team takes a look at it.
+(Open)1 organization
+(Open)6 recommendations, including:
+Stephanie Nicolai
+Stephanie Nicolai
+Head of Business Technology, Investment Division at Russell Investments
+Adron has the unique ability to really connect with his customer, effectively elicting requirements and driving quickly to...View
+Bobby Johnson
+Bobby Johnson
+Development Lead at Mombo Labs
+Adron is the rare kind of developer who actively engages with the customer in the development process. He is a self starter,...View
+4 more recommendations
+Logic20/20Senior Consultant
+Logic20/20
+May 2010 – November 2010 (7 months)Seattle, WA
+Worked as technical lead for 3 Windows Azure White Papers and Cloud Computing. Provided analysis, implementation, and deployment for Windows Azure Storage & Role Usage for demo projects used for training, enterprise environments, and more.
+
+Provided technical architecture for deployed internal ASP.NET MVC Support Site Projects for prototype of Customer Support Portals using map reduction queries against "big data" systems (100+GB in each system), internal support analysis results, and other mechanisms with JavaScript/jQuery utilizing AJAX/Asynchronous calls.
+(Open)3 recommendations, including:
+Lisa Beliveau
+Lisa Beliveau
+Senior Consultant (Contract) at Logic20/20, Inc.
+I recently worked with Adron on a whitepaper project at Logic20/20, Inc, and working with Adron was a real pleasure. He is...View
+Andrew Greenfield
+Andrew Greenfield
+QA Analyst at Tideworks Technology
+Adron is a talented developer with a knack for understanding the concepts, strengths and limitations of Windows Azure. He...View
+1 more recommendation
+WebTrendsSenior Software Engineer & Senior Consultant
+WebTrends
+September 2008 – April 2010 (1 year 8 months)Portland, OR
+Once completing work with the web services team at Webtrends I rolled over to Webtrends Consulting Solutions & Services Team to do implementations with those services. I provide development integration & implementation support for Adobe AIR, Flash, .NET, Silverlight, WPF, Office 2k7 & 2k3 (a LOT of Excel) and more products that utilize our Webtrends Data Exchange and Collection Services. In addition to the tactical involvement the strategic involvement of Enterprise Governance around analytics, business intelligence, and social media into full spectrum custom intelligence dashboard and scorecard solutions for customers.
+
+This role also has involvement with client communications before, during, and after sales process to assure clients know the full scale and scope of the product capabilities. I often work to coordinate, provide guidance, and consulting to sales, marketing, engineering and other teams as need be to provide successful customer engagements and integrations.
+
+I've also provided leadership in gaining key partners and the respective partner integrations, implementation of integration solutions, and the direction of these partnership efforts from development, relationships, and cost analysis and benefit.
+
+WebTrends brought me back in to work on .NET WCF, REST Services, Architectural Design, and more. I've also had the fortune of working on WPF & Silverlight for some fun projects. The REST based WebTrends web services have officially been released and are available for use by all customers. The WPF & Silverlight Applications will be provided as needed to clients for extended functionality and used as guidance applications for client development efforts.
+(Open)5 recommendations, including:
+Brian Gallagher
+Brian Gallagher
+Strategic Sales Engineer, Adobe Marketing Cloud
+Never have I seen someone so forward thinking and confident in software technologies and development practices. Adron has...View
+PJ Bocek
+PJ Bocek
+Tier 3 Technical Support Engineer at WebTrends
+Adron was great to work with, and had a good wealth of knowledge about any subject asked on. He had a great attitude, and...View
+3 more recommendations
+Software Architect
+The Axiom Group
+June 2008 – September 2008 (4 months)Portland, OR
+Provided support in putting an agile team process together. Put together unit test standards, user stories, burn down, and other standard processes and mentored at various stages of the implementation.
+I created a working infrastructure with continuous integration, build server reports, management, and build configuration. Utilized MVC for the presentation tier, Builder, Composite and other patterns to implement a vertically and horizontally scalable distributed architecture for an Excel based trending server application. Specific technologies included .NET 3.5, SOAP based WCF, and other framework elements.
+(Open)2 recommendations
+Gregory Jackson, MBA, CSM
+Gregory Jackson, MBA, CSM
+Director of Technology Operations at WebMD
+I worked with Adron at the Axiom Group and at Corillian. Adron is a brilliant architect with a deep knowledge of...View
+Will Lyon
+Will Lyon
+Senior Manufacturing Software Engineer at Chegg Inc.
+Adron is an extraordinary software architect and developer. I worked with him on an aggressive software project to develop...View
+WebtrendsBusiness Intelligence
+Webtrends
+October 2007 – June 2008 (9 months)Portland, OR
+65% Primary role included integration between WebTrends application and SSAS (Analysis Services) utilizing SSIS (Integration Services) and other proprietary tools. Data warehouses & databases ranged from hundreds of thousands to millions of row tables between a couple hundred MBs to several TBs of storage.
+(25%) I developed applications utilizing SSIS, SSAS, and .NET Framework (Web & Windows Forms) to assist in application integrations and data troubleshooting. 
+(10%) I created arrangement and coordination of project work and planning including deployment planning and implementation.
+(Open)5 recommendations, including:
+Jayson Barley
+Jayson Barley
+Software Engineer at Webtrends
+Supporting customers from technically and from a business analyst standpoint. Responsible for troubleshooting and developing...View
+Kevin Edmisten
+Kevin Edmisten
+Database Administrator/Hosted Operations at WebTrends
+I worked with Adron a number of times, implementing customized XMLA scripts on customers SQL Server Analysis Services (SSAS)...View
+3 more recommendations
+CenterstanceSr. Software Developer
+Centerstance
+July 2006 – October 2007 (1 year 4 months)Tacoma, WA & Portland, OR
+Worked with development team as Sr. Consultant building a Service Oriented Application (SOA) based on Windows Communication Foundation (WCF/.NET3.0), Composite UI Application Block (CAB) with Model View Controller (MVC) patterns based Smart Client Software Factory (SCSF). As the project evolved the Data Transfer Object, Domain, and other patterns where integrated into the application with business rules and workflow using the Windows Workflow in .NET 3.0, back end generation was done with LLBLGen Professional.
+(Open)8 recommendations, including:
+Aendenne Armour
+Aendenne Armour
+Sr. Software Engineer/Consultant in Phoenix, AZ
+Adron is the most well-read software developer I know. He reads and applies the latest techniques in architecture and in...View
+Britt Ward
+Britt Ward
+Solutions Architect - Microsoft Technologies
+I worked along side of Adron for many months at Labor Ready (Centerstance). I found Adron to be the consumate professional,...View
+6 more recommendations
+Sr. Software Architect & Developer
+Instant Media
+March 2006 – July 2006 (5 months)Beaverton, OR
+While at Instant Media designed and implemented the infrastructure and Web Application Components necessary for media uploads between 1MB - 2GB via 3rd Party Tools via HTTP and Web Access, DRM Encoding via Active X, User Membership, Roles, and Authentication, and Themes utilizing ASP.NET 2.0. Various versions where built and presented to management for selection and publication to production usage.
+(Open)2 recommendations
+Eric Sterling
+Eric Sterling
+Chief Software Architect/CTO at DigitalPour
+I found Adron to be a talented and dedicated developer. His good-natured personality made working with him a pleasant...View
+Laurie Kemmerer
+Laurie Kemmerer
+Senior Software Engineer at Renewable Funding, LLC
+As a QA agent, I found working with Adron to be extremely pleasant. He was very good about relaying design specifications...View
+Software Architect, Engineer, Professional Services
+Contractor/Consultant
+June 2005 – March 2006 (10 months)Hillsboro, OR
+Corillian
+(90% of time) I worked with team on several projects for credit union and bank clients. Provided assistance with development duties, augmenting the architecture staff, provided feedback and direct support and assistance for business analysts on end user interface documents, and provided new application architecture design outlines for utilizing .NET 2.0 within the current existing application framework and for possible realignment of application from .NET 1.x to .NET 2.0.
+(10% of time) Travel to and from Buffalo, New York for meetings in relation to business analysis requirements and face to face with clients. My team provided meeting minutes, documentation, and application outlines to clients.
+
+Micro-Power Electronics
+Designed/Architected a .NET Quote Management System with Integration into Goldmine CRM (SQL Server) and Fourth Shift Manufacturing(SQL Server) Software Package. I built this solution using ASP.NET Web Application with SQL Server Back end. Also technologies utilized DTS & T-SQL Stored Procedures for application and simple data-mining techniques to gather data for these different sources for reporting needs. Finally used sample OLAP SQL Server Analysis Services setup to provide client with future reference for reporting all while completing job all items documented for maintenance using nDoc, RoboHelp, and regular Word/Web Documentation.
+(Open)3 recommendations, including:
+Gareth Hebbron
+Gareth Hebbron
+Technical Services Consultant at WebTrends
+Working with Adron I found him to be an excellent source of innovative solutions and ideas, a highly skilled programmer he...View
+Kelly Dodge
+Kelly Dodge
+Senior Software Engineer at ShiftWise
+I was disappointed to not work directly with Adron on a long term project together, but in my few interactions with him,...View
+1 more recommendation
+Software Architect & Developer
+Private Contractor
+January 2004 – June 2005 (1 year 6 months)Jacksonville, FL
+Citi HR Solutions (Citi Group Human Resource Development)
+(100% of time) I worked with custom server controls to simplify the development of SQL Server data driven applications. Technologies utilized OOD with C# and Microsoft Application blocks. As senior developer I also trained and mentored junior and beginning developers on use of the custom server controls and Microsoft Application Blocks.
+
+Fidelity 
+(100% of time) The team I worked within created an internal request management web application utilizing ASP.NET (VB.NET) with integration into Fidelity’s Security Manager Forms Based Authenticator. Completed all Database Architecture Design, Application Architecture Design, Work Cases (UML Visio), and Object Oriented Developed Classes within a very short time frame and delivered the product on time.
+
+Allstate
+OLAP Cube ETL Coder (Computer Technology Solutions @ Allstate)
+(100% of time) Created OLAP Data Warehouse feeds utilizing DTS for ETL Processes feeding primary OLAP Cubes for Allstate AWD Division.
+
+Bank of America
+(28% of time) I acted as lead developer for data entry and work flow application process enhancements. Produced an estimated return of over $50k per year savings and increased sampling rates by over 75 Percent.
+(28% of time) Worked within Six Sigma team to implement a green belt DFSS project based on enhancing the multi dimensional (OLAP) Cube Reporting System using Crystal Reports, SQL Server Analysis Services and other tools as needed. Savings totaled over $250k per year.
+(44% of time) Enhanced, maintained, and organized using Six Sigma Process Projects to keep day to day costs to a minimum and to provide customers with accurate, reliable, and timely data within the Cube Reporting System.
+(Open)1 recommendation
+Michael Glenn (michael.b.glenn@gmail.com)
+Michael Glenn (michael.b.glenn@gmail.com)
+CEO at Devion
+Adron is a phenomenal developer with a sharp sense for business. He has created several projects for our companies both independently and working with myself personally. I highly value his opinion on both business and development, and would...View
+SCP Pool Corp.Software Developer
+SCP Pool Corp.
+November 2002 – December 2003 (1 year 2 months)Covington, LA
+(80% of time) I worked within a pair team on "Purchasing Console Application", to serve as a central repository of purchasing information for the entire company's distribution. Application was designed on and built with SQL Server 2000 using ASP.NET/IIS 5.0 to develop a web front end. I was also directly involved with use of JavaScript for custom controls, Menus and other items based on Infragistics controls used for GUI. Other tools used included EDI/XML Transforms (Created custom object to manipulate data to and from sources), and minor UNIDATA work retrieving data for DTS moves to SQL Server.
+(8% of time) Also provided Windows NT 4.0/2000 administration assistance and user support on custom application(s).
+(2% of time) I worked within IT team providing Windows 2000/2003 Implementation Consulting for roll out needs and to assure application integrity within the new environment.
+(10% of time) I worked within team to replace MITTs Cubes with SQL Server Analysis Services Cubes. Estimated savings exceeded $50k per year. Immediate savings exceeded $20k direct savings.
+(Open)2 recommendations
+Tim Babco
+Tim Babco
+CIO at Pool Corporation
+While at SCP Pool, Adron effectively participated in several Microsoft centric development projects and produced quality, on...View
+Alex Graham
+Alex Graham
+Senior Systems Architect at Geocent
+Adron "Ben" is a strong programmer with a creative side that often leads to otherwise unseen solutions to business needs.View
+Harrah's EntertainmentSr. Web Development
+Harrah's Entertainment
+September 2002 – November 2002 (3 months)Memphis, TN
+(100% of time) Develop and streamline the Change Management reporting flow and management system by implementing a .NET centric platform solution. I also was responsible for all SQL Server Database Architecture Designed and Implemented on Server. Application Architecture planned out (Visio!) and development work done. Reporting system involved extensive ASP.NET development w/ ADO.NET utilizing the SQL Server 7.0 backend.
+Cmedia / Respond 2Software & Systems Manager
+Cmedia / Respond 2
+August 2001 – August 2002 (1 year 1 month)Portland, OR
+(80% of time) Primary function was Sr Systems & Database Administrator and lead developer on multiple VB & VB.NET/VB 6.0/ASP.NET Projects.
+(10% of time) Acted as Technical Lead/Manager for staff of 2 (One programmer and one other systems technician). Also coordinated and handled all contractor staff. I also worked within a team on development of a multi-tiered ASP.NET Front End w/ SQL Server Database Back End Application. 
+(10% of time) This time included many smaller projects utilizing ADO.NET w/ Visual Basic & ASP.NET, Visual Basic 6.0 w/ ADO 2.6, and SQL Server 2000 & 7.0 for small tracking and data processing applications.
+Network & System Administrator, Help Desk Manager
+PSI Net Consulting, DOE SPR & other Companies
+July 1996 – May 2001 (4 years 11 months)Southern Mississippi
+I administered SQL Server 7.0 database for internal LAN for Employee Business Analysts, and management persons. Administration tasks included setup of new database, security plans for individual databases, setting up automated administration tasks, backups, and many other tasks as needed.
+
+I managed Access Database for problem reporting and tracking & created Help Desk call logs and reports with Crystal Reports via SQL. This utilized a Sybase SQL Server Database back-end. I also created Employee Hourly Project Tracking Web Application with ASP with SQL Server back-end. Front-end application was designed with ASP/VB Script for server-side code, and JavaScript for client-side form validation.
+
+Managed help desk team of 4 people, all interactions between departments including; Technical Writers, Engineering, QA, and upper management.
+Columbia Healthcare Hospitals - Acted as Network Engineer during 3 month move of network and PC Systems. 
+
+Department of Energy Strategic Petroleum Reserve (DOE SPR) - Acted as Senior Help Desk Coordinator for the 600 plus staff of the DOE SPR. Led 3 other full time, and 2 part time help desk associates. Lowered call times while on contract over 50 percent. 
+
+Cimarron Inc. (EPA - Environmental Protection Agency) - Worked as contracted Systems Administrator for Windows NT 4.0/Windows 9x environment. Also provided support for software, network, and other engineers of Naval Research Laboratories in conjunction with other team.
+Organizations
+SAWSUG - Seattle AWS Users Group
+Organizer
+June 2010 – September 2011
+Seattle ALT.NET
+Attendee
+February 2010 – February 2012
+Portland ALT.NET
+Organizer
+February 2010 – Present
+Seattle Hadoop / Big Data /NoSQL User Group
+Co-Organizer
+June 2010 – Present
+Education
+OSCON: Node.js Day
+Node.js
+2011 – 2011
+Attended a special day training centered around Node.js while attending OSCON in Portland, Oregon.
+SQL Server Analysis Services
+SQL Server Analysis Services
+2007 – 2007
+Materials covered SQL Server Analysis Services (SSAS). Primary topics covered base OLAP Design and Architecture. Measures, Calculated Fields, Snow Flake Design, Dimension, Cube Processings, etc.
+WebTrends
+Web Analytics
+2007 – 2007
+Curriculum covered setup, configuration, and modification of WebTrends Marketing Lab including Analytics, Search, and Visitor Intellignce, a SSAS Core Product.
+MVC & CAB Training
+Certificate, MVC & CAB Developers Training
+2006 – 2006
+Activities and Societies: Training covered MVC (Model View Controller) and CAB (Composite UI Application Block) for the application development effort.
+SQL Server Reporting Services Training
+SQL Server Reporting Services
+2004 – 2004
+Six Sigma Training - Green Belt / DFSS
+2004 – 2004
+Attended multiple weeks of Greenbelt Training in Charlotte, North Carolina.
+Activities and Societies: Worked within the training group as team lead, assisting with accelerating our class team into the lead position within competitions.
+Applications Developers Training - Stennis Space Center
+Certifiation, ASP 3.0 Training
+2000 – 2000
+Slidell Institute of Technology
+Certification, A+ Technician
+2000 – 2000
+Pearl River Community College
+Associates, Computer Science
+1996 – 1999
+Activities and Societies: Attained the status of "Whos Who" while in final year of college.
+Additional Info
+Interests
+Logistics and Transportation Development and Issues, Music (Jazz, Blues, Heavy Metal, Progressive Rock, and more), Car Racing and Driving Dynamics, and of course software architecture and software bits on the web and about.
+Personal Details
+Birthday	April 21
+Advice for Contacting Adron
+I no longer answer phone calls without previously meeting someone or making arrangements via email or other easily queued electronic format. I do this, only because the volume of people contacting me without regard for the communication and point of message has overwhelmed my ability to answer these messages on point and without frustration. So please use email to contact me, and I'll respond to your message as soon as I possibly can.
+
+Thanks!
+Skills & Expertise
+Most endorsed for...
+94Agile Methodologies
+
+86C#
+
+66JavaScript
+
+57.NET
+
+54Microsoft SQL Server
+
+49Web Services
+
+34SQL
+
+33REST
+
+31Node.js
+
+31Cloud Computing
+
+Adron also knows about...
+28Software Development
+21Ruby
+17Test Driven Development
+17Web Applications
+14ASP.NET MVC
+13MySQL
+11Ruby on Rails
+10Databases
+10SaaS
+9SOA
+8Git
+6Web Development
+5Requirements Analysis
+5Unit Testing
+5T-SQL
+See 25+ 
+ 
+Recommendations Received (43)Given (64)
+Technology Writer / Author
+CloudAve
+Krishnan Subramanian
+Krishnan Subramanian
+Director, OpenShift Strategy at Red Hat
+I have worked with Adron in the industry as a colleague at CloudAve and an industry peer. His insights on the industry are very sharp and I always trusted him on that. It is one of the reason why I had him on a panel at Deploycon 2013. I also admired his role in building tech communities. We have worked together to kickstart NWCloud community at Pacific Northwest and I...more
+August 30, 2013, Krishnan worked directly with Adron at CloudAve
+Coder, Messenger, Recon (i.e. Technical Evangelist)
+Basho Technologies, Inc
+Andrew Kerrigan
+Andrew Kerrigan
+Consulting Engineer at Basho Technologies, Inc
+I worked with Adron on a few New Relic plugins for Riak monitoring. He managed the project and directly interacted with the NR team to coordinate the marketing and publication of the plugins. We were well recognized in the community and internally at Basho for the work, and I'd be happy to work with him again in the future!
+August 27, 2013, Andrew worked with Adron at Basho Technologies, Inc
+ John Hornbeck
+John Hornbeck
+Data Scientist at Basho Technologies, Inc
+Adron is an extremely hard worker and played a key role engaging the Riak community in the Pacific Northwest. He regularly worked with community members in need of help, and worked to spread awareness about Riak through speaking at user groups, conferences, writing example code, and answering questions on social networks and email. Truly a man of many talents and a great...more
+August 20, 2013, John worked with Adron at Basho Technologies, Inc
+Coder, Iron Foundry Organizer, & Product Manager
+Tier 3
+Shantu Roy
+Shantu Roy
+Senior Product Manager at Tier 3
+I had the privilege to work with Adron at Tier3. Both of us worked together in a team that brought IronFoundry to the market and eventually moved over to product management. Adron is a very intelligent and capable individual with a very good mastery of new technologies, in addition to being a phenomenal blogger...:) I really enjoyed working with him.
+December 10, 2012, Shantu worked directly with Adron at Tier 3
+ Adam Wray
+Adam Wray
+Cloud Services Executive
+Adron exemplifies the best combination of technical excellence and business confidence that we strived to install across our engineering team at Tier 3. His technical knowledge of the cloud services segment and trends was critical in our product decision making process. Definite asset to our efforts.
+November 26, 2012, Adam managed Adron indirectly at Tier 3
