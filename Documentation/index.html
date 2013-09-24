@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>oResume Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;oResume&rdquo; Documentation by &ldquo;Ocholabs&rdquo; v1.1</h3>
+		
+		<hr>
+		
+		<h1 class="center"><img src="assets/images/01_oRESUME-preview_1.jpg" alt="oResume" class="shadow" /></h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 20/12/2012<br>
+					By: Ocholabs<br>
+					Email: <a href="mailto:contact@ocholabs.com">contact@ocholabs.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my HTML template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/ocholabs">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#config">Configuration</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#timeline">Timeline items</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="config"><strong>A) Configuration</strong> - <a href="#toc">top</a></h3>
+		<p>If you want to configure the style of your Resume, follow these steps:</p>
+		
+			<h4><strong>1) Skin</strong></h4>
+				
+				<p><strong style="color: red;">Following step is for php version only. If you use the HTML version, create your skin with the <a href="http://oresume.ocholabs.com" target="_blank">online demo</a></strong></p>
+				
+				<p><strong>To make your life easier, oResume comes with a Skin Maker, just as in the demo website.</strong></p>
+				
+				<h5>-- Activating the Skin Maker --</h5><br/>
+				
+				
+				<img src="assets/images/skinmakercode1.png" alt="" class="shadow"/>
+				<p>Open the <strong>index.php</strong> file and uncomment the highlighted line</p>
+				
+				<img src="assets/images/skinmakercode2.png" alt="" class="shadow"/>
+				<p>Your file should look like this.</p>
+				
+				<img src="assets/images/skinbtn.png" alt="" class="shadow"/>
+				<p>Activating the Skin Maker reveals a new button in the top right corner of your resume.</p>
+				
+				<img src="assets/images/skinpanel.png" alt="" class="shadow"/>
+				<p>When you click on it, you will see the Skin Maker panel.</p>
+				
+				<hr/>
+				<h5>-- Using the Skin Maker --</h5><br/>
+				
+				<p>You can configure many different elements colors, but to make things easier, start by doing the basic changes</p>
+				<ul>
+					<li><strong>Color Scheme:</strong> Choose light or dark (color scheme requirse some extra process listed further in the doc).</li>
+					<li><strong>Nav Position:</strong> Choose left or right (nav positionning requires some extra process listed further in the doc). </li>
+					<li><strong>Shadow Opacity:</strong> Set the Container's shadow opacity</li>
+					<li><strong>Primary Color:</strong> This is the template's primary color. In Basic mode, most of the advanced colors are defined automatically regarding this color.</li>
+					<li><strong>Background Color:</strong> Set a background color to your page. If you want no background color, use #fff for light skin and #1B1B1B for dark skin.</li>
+					<li><strong>Nav links:</strong> This is the color of the links in the navigation bar.</li>
+				</ul>
+				
+				<p>When the basic changes are done, turn on the Advanced Config by ticking the box. It will give you access to more precise element colors.</p>
+				
+				<ul>
+					<li><strong>Links:</strong> Color of links on mouse over</li>
+					<li><strong>Nav Background:</strong> Background of the navigation</li>
+					<li><strong>Nav Border & Active state:</strong> Color of the navigation Border & Active menu element</li>
+					<li><strong>Nav Liks Hover:</strong> Color of the nav links on mouse over</li>
+					<li><strong>Footer Text color:</strong> Color of the footer text</li>
+					<li><strong>Section title text:</strong> Color of the section titles</li>
+					<li><strong>Section Title Background:</strong> Background color of the section titles</li>
+					<li><strong>Section Title Border:</strong> Color of right border of the section titles</li>
+					<li><strong>Buttons Color:</strong> Background color of the buttons</li>
+					<li><strong>Buttons Color Hover:</strong> Background color of the buttons on mouse over</li>
+					<li><strong>Timeline Buttons:</strong>  Background color of the timeline buttons</li>
+					<li><strong>Timeline Buttons Hover:</strong> Background color of the timeline buttons on mouse over</li>
+					<li><strong>Skills Progressbar Color (1) & (2):</strong> Colors of Skills progress bar (vertical gradient)</li>
+					<li><strong>Blog & Portf. hover background:</strong> This is the color of the Blog & Portfolio Items on mouse over</li>
+					<li><strong>Blog & Portf. hover text</strong> This is the text color of the Blog & Portfolio Items on mouse over</li>
+				</ul>
+				<hr/>
+				<h5>-- Exporting the Skin --</h5><br/>
+				
+				<img src="assets/images/export.png" alt="" class="shadow"/>
+				<p>When you are happy with your skin, click the Export button. A modal Box will appear with the exported Skin Parameters. Copy the text from the textarea.</p>
+				
+				<img src="assets/images/skinparameters.png" alt="" class="shadow"/>
+				<p>Copy the text from the textarea. Open the <strong>skin.less</strong> file from the css folder and update the parameters by pasting the ones you just copied.</p>
+				
+			
+				<h4><strong>2) Color Scheme</strong></h4>
+				
+				<img src="assets/images/bodydark.png" alt="" class="shadow"/>
+				<p>To activate the <strong>dark</strong> color scheme, just add the <strong>dark</strong> class to the &lt;body&gt; element in the index.php</p>
+
+				<h4><strong>3) Nav Position</strong></h4>
+				
+				<img src="assets/images/sbleft.png" alt="" class="shadow"/>
+				<p>For a <strong>left</strong> navigation, the <strong>#sidebar</strong> must be before the <strong>#main-content</strong> and you must add the <strong>sbleft</strong> class to <strong>#sidebar</strong> div.</p>
+				
+				<img src="assets/images/sbright.png" alt="" class="shadow"/>
+				<p>For a <strong>right</strong> navigation, the <strong>#sidebar</strong> must be after the <strong>#main-content</strong> and you must add the <strong>sbright</strong> class to <strong>#sidebar</strong> div.</p>
+				
+				<img src="assets/images/backgrounded.png" alt="" class="shadow"/>
+				<p>If you use a right navigation, you can add the <strong>backgrounded</strong> class to the &lt;body&gt; element if you want the section titles to stick to the content limit.</p>
+				
+		
+		<h3 id="icons"><strong>B) Icons</strong> - <a href="#toc">top</a></h3>
+		<p>oResume uses <a href="http://glyphicons.com/" title="Glyphicons">Glyphicons</a></p>
+		
+			<h4>Social Icons</h4>
+			
+			<img src="assets/images/followme.png" alt="" class="shadow"/>
+			<p>The "Follow me" links have icons.</p>
+			
+			<img src="assets/images/socialcode.png" alt="" class="shadow"/>
+			<p>Change the class to change the icon.</p>
+					
+			<img src="assets/images/socialicons.png" alt="" class="shadow"/>		
+			<p>You can use many Social Networks and their dedicated class as listed above.</p>
+			
+			<h4>Section Titles</h4>
+			
+			<img src="assets/images/sectiontitle.png" alt="" class="shadow"/>
+			<p>Section titles can have icons.</p>
+			
+			<img src="assets/images/sectiontitlecode.png" alt="" class="shadow"/>
+			<p>Change the class to change the icon.</p>
+			
+			<h4>Hobbies Icons</h4>
+			
+			<img src="assets/images/hobbies.png" alt="" class="shadow"/>
+			<p>Hobbies labels can have icons too.</p>
+			
+			<img src="assets/images/hobbiescode.png" alt="" class="shadow"/>
+			<p>Change the class to change the icon.</p>
+			
+			
+			<p>All available icons are listed below</p>
+			<img src="assets/images/icons1.png" alt="" class="shadow"/>
+			<img src="assets/images/icons2.png" alt="" class="shadow"/>
+			<img src="assets/images/icons3.png" alt="" class="shadow"/>
+			<img src="assets/images/icons4.png" alt="" class="shadow"/>
+			<img src="assets/images/icons5.png" alt="" class="shadow"/>
+			<img src="assets/images/icons6.png" alt="" class="shadow"/>
+			
+		<h3 id="portfolio"><strong>C) Portfolio</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>1) - Filters</h4>
+		<p>oResume includes a portfolio. Filterings are provided by the <a href="http://isotope.metafizzy.co/" title="isotope">isotope</a> plugin</p>
+		
+		<img src="assets/images/filtersclass.png" alt="" class="shadow"/>
+		<p>Set a class to the portfolio items for each available filters.</p>
+		
+		<img src="assets/images/filterscode.png" alt="" class="shadow"/>
+		<p>then fill the data-filter attribute of the filters with the class of the portfolio items</p>
+		
+		<h4>2) - Preview & Full articles</h4>
+		
+		<img src="assets/images/portcode.png" alt="" class="shadow"/>
+		<p>Preview & Full items are in different divs.</p>
+		
+		<img src="assets/images/portitem.png" alt="" class="shadow"/>
+		<p>Preview items must link to the full item's ID</p>
+		
+		<img src="assets/images/portfull.png" alt="" class="shadow"/>
+		<p>In yellow, the ID of the Item.<br/> The Full item can although link to previous and next items. The navigation links must link to desired Portfolio IDs (green).</p>
+		
+		<h3 id="blog"><strong>D) Blog</strong> - <a href="#toc">top</a></h3>
+		<p>Blog navigation (preview -> Full item) works the same way as Portfolio items.</p>
+				
+		<h3 id="timeline"><strong>E) Timelines</strong> - <a href="#toc">top</a></h3>
+		
+		<img src="assets/images/timeline.png" alt="" class="shadow"/>
+		<p>Timeline items (.timeline-item) must be children of a timeline element (.timeline).</p>
+		
+		
+		<img src="assets/images/timelineitemcode.png" alt="" class="shadow"/>
+		<p>Timeline items toggling is provided by Twitter Bootsrap's javascript plugins. Set the toggle triggers with <strong>data-toggle="collabse"</strong> and assign target's ID in the <strong>data-target</strong> attribute</p>
+		<p>If you add the <strong>in</strong> class to the <strong>.collapse</strong> element (to make it opened), then make sur to use the <strong>circle_minus</strong> class ti the timeline trigger item. If you want to keep it closed, don'add the <strong>in</strong> and iuse <strong>circle_plus</strong> instead of circle_minus</p>
+		
+		<h3 id="contactform"><strong>F) Contact Form</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>PHP version</h4>
+		
+		<img src="assets/images/form-php.png" alt="" class="shadow"/>
+		<p>On line 901 / 902 of index.php you will need to edit the email and website variables.</p>
+		
+		<h4>HTML version</h4>
+		
+		<img src="assets/images/form-js.png" alt="" class="shadow"/>
+		<p>On line 7 of scripts.js you will need to edit the email variable. Take note that the HTML version cannot send the form directly. It will send data to the client email software.</p>		
+			
+			
+
+		<hr class="space">
+		<h3>Thank You</h3>
+		<p>Once again, thank you so much for purchasing this HTML template. 
+		As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>OCHOLABS</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
