@@ -19,7 +19,7 @@ block content
               li
                 a.scroller(href='#personal-information') Personal Info
               li
-                a.scroller(href='#projects') Projects
+                a.scroller(href='#employment') Employment
               li
                 a.scroller(href='#blog') Blog
               li
@@ -111,6 +111,33 @@ block content
                     br
                     a(href='http://photos.adron.me') Photos.Adron.me
               span.clear
+          #employment.section
+            h2.section-title
+              span.glyphicons.share_alt
+                i
+              | Employment
+              a.top.visible-phone(href='#phone-navbar')
+                span.glyphicons.white.up_arrow
+                  i
+            .timeline
+              .timeline-item
+                .timeline-item-date 2011-now
+                .timeline-item-trigger
+                  span.glyphicons.white.circle_minus(data-toggle='collapse' datatarget='#position1') Blagh
+                .timeline-arrow
+                  i
+                .timeline-item-content
+                  h3.timeline-item-title(data-toggle='collapse' data-target=) Developer, Advocate, Operator @ Blagh
+                  .collapse.in#position1
+                  p
+                    small.muted from 2011 to present day
+                  h4.media-heading.primary-color Lorum Ipsum
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing.
+                  h4.media-heading.primary-color Blurgle
+                  p more stuff here
+                  p
+                    a.noprint(href='#' title='') View Website
+
             | Updates to this site and others are coming!
         //
            END OF THE MAIN CONTENT 
@@ -123,6 +150,8 @@ block content
                 a.scroller(href='#about-me') About me
               li
                 a.scroller(href='#personal-information') Personal Info
+              li
+                a.scroller(href='#employment') Employment
           //
             /sidebar-nav 
           span.clear
