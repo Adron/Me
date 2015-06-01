@@ -1,4 +1,4 @@
-Me [![Build Status](https://travis-ci.org/Adron/Me.png)](https://travis-ci.org/Adron/Me)
+[adron.me](http://adron.me)
 ===
 Description
 ---
